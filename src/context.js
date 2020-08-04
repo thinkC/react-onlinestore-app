@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { storeProducts, detailProduct } from './data';
 
-import { ThemeConsumer } from 'styled-components';
+// import { ThemeConsumer } from 'styled-components';
 
 const ProductContext = React.createContext();
 class ProductProvider extends Component {
